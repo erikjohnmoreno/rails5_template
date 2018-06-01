@@ -6,7 +6,6 @@ set :application, "rails5_template"
 set :repo_url, "git@github.com:erikjohnmoreno/rails5_template.git"
 set :bundle_without, [:development, :test]
 set :rvm_ruby_version, '2.4.0@rails5_template'
-set :rvm_map_bins, %w{gem rake ruby rails bundle}
 set :linked_files, %w{config/database.yml config/secrets.yml config/puma.rb}
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets}
 # Default branch is :master
